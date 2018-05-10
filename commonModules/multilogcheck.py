@@ -1,6 +1,4 @@
-#usr/bin/python
-#encode:utf-8
-
+#利用多线程,遍历线上机器日志
 import paramiko
 import threading
 import Queue

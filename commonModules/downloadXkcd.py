@@ -1,3 +1,4 @@
+#抓取并下载漫画图片,并记录相关日志
 import os,requests,bs4,logging
 #logging.disable(logging.CRITICAL)
 logging.basicConfig(filename='test.log',level=logging.DEBUG,format='%(asctime)s - %(levelname)s - %(message)s')
