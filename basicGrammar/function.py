@@ -10,4 +10,23 @@ def double(onelist):
 double(testlist)
 print(testlist)
 
+n1 = 255
+print(str(hex(n1)))
+n2 = 1000
+print(str(hex(n2)))
+
+def myabs(num):
+    if not isinstance(num,(int,float)):
+        raise TypeError('bad arg type,please input int or float')
+    if num > 0:
+        return num
+    else:
+        return -num
+
+print(myabs('19'))
+
+
+
+
+
 
