@@ -12,6 +12,7 @@ print(L[:10])
 print(L[-10:])
 print(L[:10:2])
 print(L[::10])
+print(L[::-1])
 #元组切片
 T = ('Michael', 'Sarah', 'Tracy', 'Bob', 'Jack')
 print(T[-3:])
